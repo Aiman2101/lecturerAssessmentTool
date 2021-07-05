@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+.navbar {
+  background:#8D741A;
+}
+
+.nav-link,
+.navbar-brand {
+ color: #fff;
+ cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: #ccccb3;
+}
+
+.nav-link {
+ margin-right: 1em !important;
+}
+
+.nav-link:hover {
+ color: #ccccb3;
+}
+
+.navbar-collapse {
+ justify-content: flex-end;
+}
+
+.header {
+background-image: url('https://michiganvirtual.org/wp-content/uploads/2020/02/survey-and-feedback.jpg');
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: white;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+  border:1px solid #fff;
+    border-radius: 0;
+    color:#fff;
+}
+
+.description button:hover {
+    border:1px solid #fff;
+    color:#b8b894;
+}
